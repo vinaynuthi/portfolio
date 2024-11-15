@@ -1,0 +1,357 @@
+body
+{
+    background:url("black-theme.jpg");
+}
+
+
+label.port {
+    color: white;
+    font-size: 25px;
+    padding: 1rem 5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    padding-right: 3cm;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 9px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    text-indent: 5cm;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a.textpag {
+    text-decoration: none;
+    color: white;
+}
+
+a.textpag:hover {
+    border: 1px solid white; 
+    color: white; 
+    transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out; 
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.pass
+{
+    color: white;
+    font-size: 55px;
+    position: absolute;
+    text-align: center;
+    top:5.3cm;
+    bottom: 10cm;
+    margin-left:16cm ;
+}
+.pass2{
+    color: white;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    position: absolute;
+    text-align: center;
+    left:2cm;
+    bottom:6.5cm;
+    margin-left:14cm ;
+}
+.glyph{
+    position:fixed;
+    bottom:5cm;
+    left:25.5cm;
+    text-indent: 0.5cm;
+    margin-right:2.5rem;
+}
+.mar1{
+    position:absolute;
+    padding-top:2cm;
+    padding-bottom: 1.5cm;
+    padding-left:1cm;
+    padding-right: 12cm;
+    border: solid ;
+    border-color: aliceblue;
+    margin-top: 1cm;
+    margin-left:8cm;
+    margin-right:17cm;
+    margin-bottom: 3cm;
+}
+.front{
+    position: absolute;
+    bottom:3cm;
+    left:3px;
+    color: white;
+    font-size: 20px;
+    text-indent: 6cm;
+    
+
+}.img1{
+    vertical-align: top;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width:50px;
+}
+img{
+    width:60px;
+    height: 60px;
+}
+.caption{
+    position: relative;
+    top:2cm;
+    right:1.6cm;
+    color: white;
+}
+
+.mar2{
+    position: absolute;
+    padding-top:1.5cm;
+    padding-left: 1cm;
+    padding-right: 3.5cm;
+    padding-bottom: 1.5cm;
+    border: solid ;
+    border-color: aliceblue;
+    margin-top:4cm;
+    margin-left:25cm;
+    margin-right:50cm;
+}
+.Back{
+    position: absolute;
+    bottom:3cm;
+    left:1px;
+    color: white;
+    font-size: 20px;
+    text-indent: 2cm;
+
+}
+
+.mar3{
+    border-width: 1px;
+    border:solid;
+    border-color: aliceblue;
+    position: absolute;
+    top:10cm;
+    margin-left:6cm;
+    margin-bottom: 12cm;
+    padding-top:2rem;
+    padding-left:2rem;
+    padding-right: 7.3cm;
+    padding-bottom: 1.5cm;
+}
+#Data{
+    position: relative;
+    bottom:1rex;
+    left: 7rem;
+    color:white;
+}
+.mar4{
+    border-width: 1px;
+    border:solid;
+    border-color: aliceblue;
+    position: absolute;
+    top:2cm;
+    left:3cm;
+    margin-top:10cm;
+    margin-left:16cm;
+    padding-top:2rem;
+    padding-left:2rem;
+    padding-right: 7cm;
+    padding-bottom: 2cm;
+}
+#Oth{
+    color: white;
+    position: relative;
+    bottom:1rex;
+    left:3cm;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 952px){
+    body {
+        background:url("black-theme.jpg");
+        background-size: cover;
+    }
+    
+    label.port {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    
+    .pass {
+        font-size: 30px;
+        top: 3cm;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .pass2 {
+        font-size: 15px;
+        left: 1cm;
+        bottom: 5cm;
+        margin-left: 1cm;
+    }
+    
+    .glyph {
+        position: fixed;
+        bottom: 2cm;
+        left: 1cm;
+        text-indent: 0.5cm;
+        margin-right: 1rem;
+    }
+
+    .mar1 {
+        position: static;
+        padding-top: 1cm;
+        margin-top: 1cm;
+        margin-left: 0.5cm;
+        margin-right: 1rem;
+        margin-bottom: 1cm;
+        padding-right: 1rex;
+    }
+
+    .front {
+        position: relative;
+        bottom: 2rex;
+        padding-left: 1rex;
+        left: 1cm;
+        font-size: medium;
+        text-indent: 3cm;
+
+    }
+
+    .img1 {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+
+    img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .caption {
+        position: relative;
+        top: 1cm;
+        right: 1cm;
+        font-size: xx-small;
+    }
+
+    .mar2 {
+        position: static;
+        margin-top: 1cm;
+        margin-left: 0.5cm;
+        margin-right: 0.5cm;
+        margin-bottom: 1cm;
+        padding-top: 1cm;
+        padding-left: 1cm;
+        padding-right: 0.5cm;
+        padding-bottom: 1cm;
+    }
+
+    .Back {
+        position: relative;
+        bottom: 2rex;
+        padding-left: 1.8cm;
+        left: 1cm;
+        font-size: medium;
+        text-indent: 1cm;
+    }
+
+    .mar3 {
+        position: static;
+        top: auto;
+        margin-left: 0.5cm;
+        margin-right: 0.5cm;
+        margin-bottom: 1cm;
+        padding-right: 0.5rem;
+    }
+
+    #Data {
+        position: relative;
+        bottom: 0.5cm;
+        padding-left:3cm ;
+        left: 1cm;
+        font-size: medium;
+    }
+
+    .mar4 {
+        position: static;
+        top: auto;
+        left: auto;
+        margin-top: 1cm;
+        margin-left: 0.5cm;
+        margin-right: 0.5cm;
+        padding-right: 0.2px;
+    }
+
+    #Oth {
+        position: relative;
+        bottom: 0.5cm;
+        padding-left:3cm ;
+        left: 1cm;
+        font-size: medium;
+    }
+}
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    nav ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.8);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 10px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    a.textpag:hover {
+        background: none;
+        
+    }
+}

@@ -1,0 +1,198 @@
+body {
+    background: url("back-grd.jpg");
+}
+
+
+img {
+    text-align: center;
+    width: 12cm;
+    height: 12cm;
+    margin-top: 1cm;
+    padding-left: 1cm;
+    padding-bottom: 1cm;
+}
+
+nav {
+    background-color: transparent;
+    height: 80px;
+    width: 100%;
+}
+
+label.port {
+    color: white;
+    font-size: 25px;
+    padding: 1rem 5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    padding-right: 3cm;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 9px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    text-indent: 5cm;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a.textpag {
+    text-decoration: none;
+    color: white;
+}
+
+a.textpag:hover {
+    border: 1px solid white; 
+    color: white; 
+    transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out; 
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.pass {
+    color: white;
+    font-size: 55px;
+    position: absolute;
+    text-align: center;
+    top: 4cm;
+    width: 100%; 
+    margin: 0; 
+    left: 50%; 
+    padding-left: 12cm;
+    transform: translateX(-50%); 
+}
+
+.pass2 {
+    color: white;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    text-align: center;
+    width: 100%; 
+    margin: 0;
+    bottom: 4cm;
+    left: 50%; 
+    padding-left: 12cm;
+    transform: translateX(-50%);
+}
+
+.glyph {
+        position: absolute;
+        padding-top: 5cm; 
+        top: 8cm;
+        text-align: center; 
+        text-indent: 0.5cm;
+        padding-left: 10cm; 
+        left: 10cm;
+    
+}
+
+/* Media query for mobile devices */
+@media (max-width: 952px) {
+    img {
+        width: 300px;
+        height: 200px;
+        padding-right: 1rem;
+        
+    }
+
+    label.port {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .pass {
+        font-size: 30px;
+        padding-left: 0.5cm; 
+        top: 15cm; 
+    }
+
+    .pass2 {
+        font-size: 15px; 
+        top: 17cm;
+        padding-left: 1cm;
+        bottom: auto;
+    }
+
+    .glyph {
+         width: 100%; 
+         text-align: center; 
+         text-indent: 0.5cm;
+         padding-left: 0; 
+         left: 0; 
+         padding-top: 8cm; 
+         top: 17cm;
+         
+    }
+}
+
+@media (max-width: 858px) {
+    img {
+        display: block;
+        width: 400px;
+        height: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    nav ul {
+        position:fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.8);
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s ease;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 10px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    a.textpag:hover {
+        background: none;
+        
+    }
+}
